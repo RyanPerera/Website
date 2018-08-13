@@ -260,7 +260,7 @@ a:hover {
 }
 
 #slide1 {
-    background: url('file:///C:/Users/Ryan%20Perera/Documents/ryanperera%20website/img/IMG_9822.JPG') 50% 0 no-repeat fixed;
+    background: url('../img/IMG_9822.JPG') 50% 0 no-repeat fixed;
     color: #fff;
     height: 505px;
     margin: 0;
