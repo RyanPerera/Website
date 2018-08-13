@@ -89,6 +89,7 @@ a:hover {
     z-index: 100;
     height: 230px;
     text-align: center;
+    pointer-events:none;
 }
 
 #nav {
