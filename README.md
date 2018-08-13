@@ -2,7 +2,9 @@
 For my personal website www.ryanperera.ca
 
 August 9th 2018:
+
 -launched 1st version with no javascript implementation, only simple HTML and CSS
+
 
 August 12th 2018:
 
