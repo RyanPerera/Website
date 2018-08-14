@@ -29,7 +29,7 @@
                             $("#nav li a").removeClass("active");
                             $(this).addClass('active');
                             $('html, body').animate({
-                                scrollTop: targetOffset - 115
+                                scrollTop: targetOffset - 100
                             }, 800);
                             return false;
                         });
@@ -46,7 +46,7 @@
             '../img/IMG_0346.JPG',
         ];
 
-        var bgdesc=[
+        var bgdesc = [
             'A cat on a rooftop. ',
             'Nine Arches Bridge.',
             'Elephants on the side of the road.',
@@ -73,7 +73,6 @@
 
 
         setInterval(swapBackgrounds, 5000);
-
     </script>
 
 </head>
@@ -96,7 +95,7 @@
     </header>
     <!----- SLIDES START --->
     <div id="slide1">
-          <h4 id="bgtext">A cat on a rooftop.</h3>
+        <h4 id="bgtext">A cat on a rooftop.</h4>
     </div>
     <div id="slide2">
         <div class="content">
@@ -113,22 +112,41 @@
         <div class="content">
             <div class="other_container">
                 <h3 class="centertext"><br><br><br>Some of my favourite languages to work with and programs to use include:</h3>
+                <h3 class="listpics">
+                    <ul style="list-style-type:none">
+                        <div style="float: left; width: 50%;">
+                            <li><img src="img/logo-java.png" width="30" height="30" /> </li>
+                            <li><img src="img/logo-c.png" width="30" height="30" /> </li>
+                            <li><img src="img/logo-python.png" width="30" height="30" /></li>
+                            <li><img src="img/logo-matlab.png" width="30" height="30" /></li>
+                            <li><img src="img/logo-html5.png" width="30" height="30" /> </li>
+                        </div>
+                        <div style="float: right; width: 50%;">
+                            <li><img src="img/logo-as.png" width="30" height="30" /> </li>
+                            <li><img src="img/logo-brackets.png" width="30" height="30" /></li>
+                            <li><img src="img/logo-excel.png" width="30" height="30" /> </li>
+                            <li><img src="img/logo-ps.png" width="30" height="30" /> </li>
+                            <li><img src="img/logo-inventor.png" width="30" height="30" /></li>
+                            <li><img src="img/logo-fl.png" width="30" height="30" /></li>
+                        </div>
+                    </ul>
+                </h3>
                 <h3 class="listtext">
                     <ul style="list-style-type:none">
                         <div style="float: left; width: 50%;">
-                            <li><img src="img/logo-java.png" width="30" height="30" /> Java</li>
-                            <li><img src="img/logo-c.png" width="30" height="30" /> C</li>
-                            <li><img src="img/logo-python.png" width="30" height="30" /> Python</li>
-                            <li><img src="img/logo-matlab.png" width="30" height="30" /> MATLAB</li>
-                            <li><img src="img/logo-html5.png" width="30" height="30" /> HTML</li>
+                            <li>Java</li>
+                            <li>C</li>
+                            <li>Python</li>
+                            <li>MATLAB</li>
+                            <li>HTML</li>
                         </div>
                         <div style="float: right; width: 50%;">
-                            <li><img src="img/logo-as.png" width="30" height="30" /> Android Studio</li>
-                            <li><img src="img/logo-brackets.png" width="30" height="30" /> Brackets</li>
-                            <li><img src="img/logo-excel.png" width="30" height="30" /> Excel</li>
-                            <li><img src="img/logo-ps.png" width="30" height="30" /> Photoshop</li>
-                            <li><img src="img/logo-inventor.png" width="30" height="30" /> Inventor</li>
-                            <li><img src="img/logo-fl.png" width="30" height="30" /> FL Studio</li>
+                            <li>Android Studio</li>
+                            <li>Brackets</li>
+                            <li>Excel</li>
+                            <li>Photoshop</li>
+                            <li>Inventor</li>
+                            <li>FL Studio</li>
                         </div>
                     </ul>
                 </h3>
@@ -152,22 +170,33 @@
     </div>
     <div id="slide5">
         <div class="content">
-            <div class="text_container">
-                <h3 class="text">If you like the images on this site, they were all shot by me during my travels to Sri Lanka. Stay tuned for more!</h3>
+            <div class="project_container">
+                <h3 class="projectthumbs"><a href="https://soundcloud.com/ryanperera/sets/overdrive-ost" target="_blank"><img src="img/Overdrive_OST_2_500x500.jpg" alt="Overdrive OST"  width="200" height="200"/></a></h3>
+                <h3 class="projecttext">OVERDRIVE OST<br><br>Started work in 2011 when I was 14 years old, Overdrive was a videogame inspired by the likes of Cave Story and Spelunky, which never left the conceptual stages. What was completed included some rough pixel art and a complete original soundtrack. Although the concept has since been put aside, I do plan on one day revisiting the idea of creating an adventurous 2D platformer.<br>Check out the original soundtrack by clicking the image on the left!</h3>
+            </div><br>
+            <div class="project_container">
+                <h3 class="projectthumbs"><a href="Prosthetic_Hand.pdf" target="_blank"><img src="img/thumb-CAD-project.png" alt="CAD Project"  width="200" height="200"/></a></h3>
+                <h3 class="projecttext">PROSTHETIC HAND<br><br>Created in 2016 for my course titled ENG1C03: Engineering Design and Graphics, the goal was to create a prosthetic hand that was able to pinch with two "fingers". The actual pinching mechanism was to work using only a gear system with a specific gear ratio. The device was later built using 3D printers at the McMaster EPIC lab.<br>You can view a 3D model of the design by clicking the image on the left! Adobe Acrobat Reader is required to view the 3D pdf.</h3>
+            </div><br>
+            <div class="project_container">
+                <h3 class="projectthumbs"><a href="Prosthetic_Hand.pdf" target="_blank"><img src="img/thumb-photography.jpg" alt="Photography"  width="200" height="200"/></a></h3>
+                <h3 class="projecttext">PHOTOGRAPHY<br><br>If you like the images on this website, they were all shot during my trip to Sri Lanka during the summer of 2018.</h3>
             </div>
+
         </div>
     </div>
     <div id="slide6">
         <div class="content">
             <div class="other_container">
-                <h3 class="centertext">Contact Me:</h3>
-                <h3 class="centertextsmall"><a href="mailto:ryanperera9001@gmail.com">ryanperera9001@gmail.com</a> | <a href="http://www.linkedin.com/in/ryan-perera">LinkedIn</a> | <a href="http://github.com/RyanPerera">GitHub</a></h3>
+                <h3 class="centertext">Contact Me</h3>
+                <h3 class="centertextsmall"><a href="mailto:ryanperera9001@gmail.com">ryanperera9001@gmail.com</a> | <a href="http://www.linkedin.com/in/ryan-perera" target="_blank">LinkedIn</a> |
+                    <a href="http://github.com/RyanPerera" target="_blank">GitHub</a></h3><br><br><br>
+                <h3 class="copyrighttext">Designed by Ryan Perera © 2018</h3>
             </div>
         </div>
     </div>
     <!----- SLIDES END --->
-    <footer id="footer">
-        </div>
+    <footer id="footer"></footer>
 </body>
 
 </html>
