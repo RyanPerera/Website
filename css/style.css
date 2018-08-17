@@ -98,7 +98,7 @@ a:hover {
     z-index: 100;
     margin-top: 5px;
     font-style: italic;
-    text-shadow: 1px 1px #8a8a8a;
+    text-shadow: 1px 1px #000;
 }
 
 #logo a {
@@ -112,7 +112,6 @@ a:hover {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-weight: bold;
     font-style: italic;
-    text-shadow: 1px 1px #000000;
 }
 
 #nav ul {
@@ -157,7 +156,6 @@ a:hover {
 
 #bgtext {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
-    font-weight: bold;
     font-size: 24px;
     text-align: right;
     margin: 650px 60px 0px 0px;
