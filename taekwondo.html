@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>Ground Zero Taekwondo</title>
+    <link rel="stylesheet" href="css/taekwondo.css" />
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700i" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400i" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+    <script>
+        <!--scrolling navigation
+        -->
+        $(document).ready(function()
+        {
+        $('a[href*=#]').each(function()
+        {
+        if
+        (location.pathname.replace(/^\//,
+        '')
+        ==
+        this.pathname.replace(/^\//,
+        '')
+        &&
+        location.hostname
+        ==
+        this.hostname
+        &&
+        this.hash.replace(/#/,
+        ''))
+        {
+        var
+        $targetId
+        =
+        $(this.hash),
+        $targetAnchor
+        =
+        $('[name='
+        +
+        this.hash.slice(1)
+        +
+        ']');
+        var
+        $target
+        =
+        $targetId.length
+        ?
+        $targetId
+        :
+        $targetAnchor.length
+        ?
+        $targetAnchor
+        :
+        false;
+        if
+        ($target)
+        {
+        var
+        targetOffset
+        =
+        $target.offset().top;
+
+            
+            
+    /*$(document).ready((function openTab(evt, tabName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.className += " active";
+    });*/
+                      
+            
+
+    <!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->
+    $(this).click(function() {
+    $("#nav li a").removeClass("active");
+    $(this).addClass('active');
+    $('html, body').animate({
+    scrollTop: targetOffset - 100
+    }, 800);
+    return false;
+    });
+    }
+    }
+    });
+    });
+
+
+    //FADE IN SLIDES
+    $(document).ready(function() {
+
+    /* check whenever windows is scrolled */
+    $(window).scroll( function(){
+
+    /* check location of slide */
+    $('.hide').each( function(i){
+
+    var bottom_of_object = $(this).position().top + $(this).outerHeight()-200;
+    var top_of_object = $(this).position().top;
+    var height_of_object = $(this).outerHeight();
+    var bottom_of_window = $(window).scrollTop() + $(window).height();
+    var top_of_window = $(window).scrollTop();
+
+    /*$(this).css({'opacity': ((top_of_window - top_of_object + 1000) / height_of_object)});*/
+
+    /* fade visible slide */
+    if( (bottom_of_window > bottom_of_object) && !(top_of_window > bottom_of_object )){
+
+    $(this).animate({'opacity':'1'},500);
+
+    }
+
+    });
+
+    });
+
+    });
+
+
+
+
+    // fade in first slide immediately
+    $(document).ready(function() {
+
+    /* check location of slide */
+    $('.hide1').each( function(i){
+
+    $(this).animate({'opacity':'1'},500);
+
+    });
+
+    });
+
+    </script>
+
+</head>
+
+<body>
+    <!----- HEADER START--->
+
+    <div id="navigation">
+        <!-- Tab links -->
+        <div class="hide1">
+            <div class="tab">
+                <button class="tablinks" onclick="location.href='./taekwondo.html'">Home</button>
+                <button class="tablinks" onclick="location.href='./programs.html'">Programs</button>
+                <button class="tablinks" onclick="location.href='./schedule.html'">Schedule</button>
+                <button class="tablinks" onclick="openTab(event, 'About Us')">About Us</button>
+                <button class="tablinks" onclick="openTab(event, 'Blog')">Blog</button>
+                <button class="tablinks" onclick="openTab(event, 'After School Pick Up')">After School Pick Up</button>
+            </div>
+        </div>
+        O
+    </div>
+    
+    <!---
+    <div class="hide1">
+        <div id="slide0">
+        </div>
+    </div>
+    --->
+    
+    <!--SLIDE1---------------------------------------------------------------------->
+    <div class="hide1">
+        <div id="slide1">
+            <h4 id="bgtext" onclick="location.href='./taekwondo.html'">GROUND ZERO TAEKWONDO</h4>
+        </div>
+    </div>
+    <!--SLIDE2---------------------------------------------------------------------->
+    <div class="hide">
+        <div id="slide2">
+            <div class="content">
+                <div class="text_container">
+                    <h4><br><br><i>Mastery begins at Ground Zero</i></h4>
+                    <h4 class="centertextsmall"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu libero, maximus ut nibh sit amet, lacinia mattis ante. Fusce luctus, nisi bibendum volutpat convallis, massa lacus vulputate justo, egestas imperdiet elit enim in felis. In gravida erat vitae elit condimentum fermentum. Etiam sit amet turpis gravida, hendrerit elit sit amet, iaculis purus. Curabitur consequat urna vel nulla fermentum, in efficitur est volutpat. </h4>
+                    <h4><br><br>여의&ensp;&ensp;&ensp;&ensp;염치&ensp;&ensp;&ensp;&ensp;인냬&ensp;&ensp;&ensp;&ensp;극기&ensp;&ensp;&ensp;&ensp;백절불굴</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--SLIDE3---------------------------------------------------------------------->
+    <div class="hide">
+        <div id="slide3">
+            <div class="content">
+
+            </div>
+        </div>
+    </div>
+    <!--SLIDE4---------------------------------------------------------------------->
+    <div class="hide">
+        <div id="slide4">
+            <div class="content">
+
+            </div>
+        </div>
+    </div>
+    <!--MAP------------------------------------------------------------------------->
+    <div class="hide">
+        <div id="slide5">
+            <!--The div element for the map -->
+            <div id="map"></div>
+            <script>
+                // Initialize and add the map
+                function initMap() {
+                    // The location of Uluru
+                    var uluru = {
+                        lat: 43.855719,
+                        lng: -79.337649
+                    };
+                    // The map, centered at Uluru
+                    var map = new google.maps.Map(
+                        document.getElementById('map'), {
+                            zoom: 15,
+                            center: uluru
+                        });
+                    // The marker, positioned at Uluru
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                    });
+                }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAat-QP7GWB37yKPEMtrMtO63y40s8sGYQ&callback=initMap">
+            </script>
+        </div>
+    </div>
+    <!--SLIDE6----------------------------------------------------------------------->
+    <div id="slide6">
+        <div class="content">
+            <div class="other_container">
+                <h3 class="centertext">Contact Us</h3>
+                <h3 class="centertextsmall"><a href="mailto:ryanperera9001@gmail.com">ryanperera9001@gmail.com</a> | <a href="http://www.linkedin.com/in/ryan-perera" target="_blank">LinkedIn</a> |
+                    <a href="http://github.com/RyanPerera" target="_blank">GitHub</a></h3><br><br><br>
+                <h3 class="copyrighttext">Designed by Ryan Perera © 2019</h3>
+            </div>
+        </div>
+    </div>
+    <!----- SLIDES END --->
+</body></html>
