@@ -60,6 +60,11 @@ h4 {
     width: 960px;
 }
 
+.staffcontent {
+    margin: 0 auto 0 100px;
+    width: 960px;
+}
+
 .clear {
     clear: both;
 }
@@ -335,7 +340,27 @@ a:hover {
     font-size: 100px;
     text-align: center;
     color: #d6d6d6;
-    padding: 30px 0 0 0
+    padding: 30px 0 0 0;
+}
+
+#staffheader {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: normal;
+    height: 150px;
+    font-size: 100px;
+    text-align: center;
+    color: #d6d6d6;
+    padding: 0 0 0 0;
+}
+
+#aboutheader {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: normal;
+    height: 250px;
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+    padding: 30px 0 0 0;
 }
 
 .program_container {
@@ -359,6 +384,26 @@ a:hover {
     color: #d6d6d6;
     padding: 20px;
 }
+
+.staff_container {
+    float: left;
+    height: 285px;
+    background-color: rgba(15, 17, 15, 0.5);
+    overflow: hidden;
+}
+
+.staffthumbs {
+    margin: 20px;
+}
+
+.stafftext {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+    color: #d6d6d6;
+}
+
 
 .timeline1 {
     position: relative;
@@ -399,7 +444,7 @@ a:hover {
 .hidetext {}
 
 #slide1 {
-    background: url('../img/slide1bg.JPG') 400px 100px no-repeat;
+    background: url('../img/slide1bg.JPG') no-repeat;
     background-size: 100% auto;
     color: #fff;
     background-color: #000;
@@ -425,12 +470,23 @@ a:hover {
     position: relative;
 }
 
-#calendarslide {
+#aboutslide2 {
     color: #000;
     background-color: #2C2B3C;
     height: auto;
-    padding-left: 550px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 60px 0;
     position: relative;
+}
+
+#calendarslide {
+    color: #000;
+    background-color: #2C2B3C;
+    height: auto;\
+    position: relative;
+    
+    text-align: center;
 }
 
 #slide2 {
@@ -446,6 +502,24 @@ a:hover {
 
 
 #slide3 {
+    background: url(../img/slide3bg.jpg) 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 650px;
+    padding: 100px 0 0 0;
+    background-size: cover;
+}
+
+.slide3text {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: normal;
+    height: 250px;
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+    padding: 250px 0 0 450px;
+}
+
+#aboutslide1 {
     background: url(../img/slide1bg.jpg) 50% 0 no-repeat fixed;
     color: #fff;
     height: 650px;
@@ -456,7 +530,7 @@ a:hover {
 #slide4 {
     background-color: #5E9994;
     color: #333333;
-    height: 650px;
+    height: 750px;
     padding: 80px 0
 }
 
