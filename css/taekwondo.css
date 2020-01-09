@@ -545,16 +545,8 @@ a:hover {
     padding: 20px 0 25px 0;
 }
 
-
 #map {
     width: 100%;
-    height: 900px;
-    background-color: grey;
-}
-
-#aboutmap {
-    width: 50%;
-    float:left;
     height: 900px;
     background-color: grey;
 }
