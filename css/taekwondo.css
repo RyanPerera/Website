@@ -552,6 +552,13 @@ a:hover {
     background-color: grey;
 }
 
+#aboutmap {
+    width: 50%;
+    float:left;
+    height: 900px;
+    background-color: grey;
+}
+
 /* Style the tab */
 .tab {
     overflow: hidden;
