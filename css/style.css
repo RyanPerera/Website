@@ -94,7 +94,9 @@ a:hover {
 
 #nav {
     width: 900px;
-    float: right;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
     z-index: 100;
     margin-top: 5px;
     font-style: italic;
